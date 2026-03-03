@@ -7,11 +7,13 @@ on the shirt. The function should print a sentence summarizing the size of the s
 Call the function once using positional arguments to make a shirt. Call the function a second time
 using keyword arguments.
 """
-def make_shirt(size, message):
+def make_shirt(size="L", message="I Love Python"):
     """Make a shirt with a size and a message"""
     print(f"A shirt of the size {size.upper()} will have the following message printed on it: \n{message}\n")
 
-make_shirt("XL", "Hang in there")
+make_shirt("L")
+make_shirt("M")
+make_shirt("XL", "Here's the slogan")
 
 """
 8-4
