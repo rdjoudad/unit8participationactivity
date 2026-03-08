@@ -34,9 +34,13 @@ called sent_messages as it's printed. After calling the function, print both of 
 were moved correctly.
 """
 
-def send_messages(unsent_messages, sent_messages):
-    while unsent_messages:
-        message = unsent_messages.pop
-        print(f"Sending:\n{message}")
-        print()
-        send_messages.append(message)
+
+
+"""
+8-11. 
+Archived Messages
+Start with your work from Exercise 8-10. Call the function send_messages() with a copy of the list of messages. 
+After calling the function, print both of your lists to show that the original list has retained its messages.
+"""
+
+send_messages(sent_messages, )
