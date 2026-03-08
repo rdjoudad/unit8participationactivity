@@ -42,5 +42,13 @@ Archived Messages
 Start with your work from Exercise 8-10. Call the function send_messages() with a copy of the list of messages. 
 After calling the function, print both of your lists to show that the original list has retained its messages.
 """
+short_messages = ["Hello", "How's it going?", "Lovely weather we're having"]
+sent_messages = []
 
-send_messages(sent_messages, )
+send_messages(short_messages[:], sent_messages)
+
+print("Original list: ")
+show_messages(short_messages)
+
+print("\nOther list: ")
+show_messages(sent_messages)
