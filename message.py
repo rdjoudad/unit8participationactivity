@@ -2,7 +2,7 @@
 8-9
 Messages
 Make a list containing a series of short text messages. Pass the list to a function called show_messages(), which prints each 
-text message
+text message.
 """
 
 def show_messages(short_messages):
@@ -11,6 +11,7 @@ def show_messages(short_messages):
         return
     for message in short_messages:
         print(message)
+
 
 def send_messages(unsent_messages, sent_messages):
     while unsent_messages:
@@ -26,6 +27,7 @@ send_messages(short_messages, sent_messages)
 show_messages(short_messages)
 show_messages(sent_messages)
 
+
 """
 8-10. 
 Sending Messages
@@ -33,8 +35,6 @@ Start with a copy of your program from Exercise 8-9. Write a function called sen
 called sent_messages as it's printed. After calling the function, print both of your lists to make sure the messages
 were moved correctly.
 """
-
-
 
 """
 8-11. 
