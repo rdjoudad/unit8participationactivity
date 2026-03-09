@@ -52,3 +52,4 @@ show_messages(short_messages)
 
 print("\nOther list: ")
 show_messages(sent_messages)
+
